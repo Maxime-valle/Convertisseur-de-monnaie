@@ -18,7 +18,6 @@ class CustomCurrencyConverter:
                 print(f"La conversion de {from_currency} à {to_currency} n'est pas possible.")
                 return None
 
-# Exemple d'utilisation
 ccc = CustomCurrencyConverter()
 ccc.add_rate('USD', 'EUR', 0.85)
 print(ccc.convert(100, 'USD', 'EUR'))
