@@ -15,4 +15,3 @@ def convert_and_save(to_currencies, filename):
 
 convert_and_save(['USD', 'JPY', 'GBP', 'PLN', "THB", "NOK"], 'history.txt')
 
-15
